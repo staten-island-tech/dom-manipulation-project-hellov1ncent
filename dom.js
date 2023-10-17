@@ -1,9 +1,9 @@
 const DOMSelectors = {
     button: document.getElementById("btn"),
     box: document.getElementById("container-box"),
-    input: document.querySelectorA("#input"),
+    input: document.querySelector("#input"),
 
-}
+};
 
 
 DOMSelectors.button.addEventListener("click", function(){
