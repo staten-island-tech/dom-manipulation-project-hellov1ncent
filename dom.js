@@ -1,15 +1,16 @@
 const DOMSelectors = {
-    button: document.getElementById("btn"),
-    box: document.getElementById("container-box"),
-    input: document.querySelector("#input"),
+    form: document.querySelector("#form"),
+    firstName: document.querySelector(".first-name"),
+    h2s: document.querySelectorAll("h2"),
 
 };
 
 
-DOMSelectors.button.addEventListener("click", function(){
-    let input = DOMSelectors.input.value;
-    DOMSelectors.box.insertAdjacentHTML("beforeend", <p>${input}</p>);
-    DOMSelectors.input.value = ";"
-}
-);
+DOMSelectors.form.addEventListener("submit", function(event) {event.preventDefault();
+    document
+    .querySelector("gallery");
+    console.log(DOMSelectors.firstName.value);
+    DOMSelectors.h2s.forEach((e1)=>el.textContext = DOMSelectors.firstName.value);
+    }
+)
 
