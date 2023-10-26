@@ -9,9 +9,8 @@ const DOMSelectors = {
 DOMSelectors.form.addEventListener("submit", function(event) {event.preventDefault();
     document
     .querySelector("gallery");
-    console.log(DOMSelectors);
-    DOMSelectors.h2s.forEach((e1)=>el.textContext = DOMSelectors.firstName.value);
+    DOMSelectors.h2s.forEach((el)=>el.textContext = DOMSelectors.firstName.value);
+    console.log(el);
 
     }
 )
-
