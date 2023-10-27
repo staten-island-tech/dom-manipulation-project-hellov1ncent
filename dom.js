@@ -19,4 +19,4 @@ const card = DOMSelectors.button.addEventListener("click", function(){
             <h2 class="card-header" id="column">${input}</h2>
             <h3 class="card-info" id="column">${input2}</h3>
         </div>
-        <button type="submit" id="delete">Delete</button>); 
+        <button type="submit" id="delete">Delete</button>)
