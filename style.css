@@ -1,11 +1,4 @@
-.column {
-    display:flex;
-    width: 85%;
-    height: 80%;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    margin: 10rem auto;
-}
+
 
  .card {
 height: 400px;
@@ -20,6 +13,14 @@ align-items: center;
 justify-content: space-around;
  border-radius: 20px;
  }
+ .column {
+    display:flex;
+    width: 85%;
+    height: 80%;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 10rem auto;
+}
 .img 
   {
 flex-wrap: wrap;
