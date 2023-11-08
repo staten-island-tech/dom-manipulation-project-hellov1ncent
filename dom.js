@@ -1,12 +1,12 @@
 const DOMSelectors = {
     form: document.querySelector("#form"),
+    button: document.getElementById("btn"),
     h2s: document.querySelectorAll("h2"),
     h3s: document.querySelectorAll("h3"),
-    button: document.getElementById("btn"),
     input: document.querySelector(`#input`),
     input2: document.querySelector(`#input2`),
-    remove: document.querySelector(`#remove`),
     input3: document.querySelector(`#input3`),
+    remove: document.querySelector(`#remove`),
 };
 
 DOMSelectors.form.addEventListener("submit", function(event){
@@ -19,9 +19,8 @@ DOMSelectors.form.addEventListener("submit", function(event){
     let input= DOMSelectors.input.value;
     let input2= DOMSelectors.input2.value;
     let input3 = DOMSelectors.input3.value;
-    DOMSelectors.form.insertAdjacentHTML("beforeend",
-    `<div class="column">
-    <div class="card">
+    DOMSelectors.parent.insertAdjacentHTML("beforeend",
+    `<div class="card">
         <h2 class="card-header" id="column">${input}</h2>
         <img src = "${input3}" alt = "" class = "img">
         <h3 class="card-info" id="column">By: ${input2}</h3>
