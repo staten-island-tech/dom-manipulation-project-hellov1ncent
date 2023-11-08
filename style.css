@@ -20,17 +20,6 @@ align-items: center;
 justify-content: space-around;
  border-radius: 20px;
  }
-.parent{
-font-size: 30px;
-flex-wrap: wrap;
-display: flex;
-justify-content: space-around;
-gap: 20px;
-align-content: space-between;
-border-radius: 10px;
-align-items: center;
-padding: 20px;
-}
 .img 
   {
 flex-wrap: wrap;
