@@ -1,6 +1,12 @@
-
-
- .card {
+.column {
+  display:flex;
+  width: 85%;
+  height: 80%;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin: 10rem auto;
+}
+.card {
 height: 400px;
 width: 300px;
 border:5px solid #454545;
@@ -11,25 +17,17 @@ flex-direction: column;
 align-items: top;
 align-items: center;
 justify-content: space-around;
- border-radius: 20px;
- }
- .column {
-    display:flex;
-    width: 85%;
-    height: 80%;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    margin: 10rem auto;
+border-radius: 20px;
 }
+
 .img 
-  {
+{
 flex-wrap: wrap;
 align-items: center;
 height: 60%;
 width: 80%;
-border:2.5px solid #454545;
-  }
-
-  body {
-    background-color:lightslategray
-  }
+border:2.5px solid red;
+}
+body {
+  background-color:lightslategray
+}
